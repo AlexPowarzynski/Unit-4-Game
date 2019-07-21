@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Do you remember?</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col">
+                <H1>Little Memory Game</H1>
+            </div>
+        </div>
+        <!-- Explanation of the game -->
+        <div class="row">
+            <div class="col">
+                <p> Do this at the end </p>
+            </div>
+        </div>
+        <!-- Goal and wins/losses -->
+        <div class="row">
+            <div class="col goalScore">
+                - Goal score-
+            </div>
+            <div class="col">
+                <div class="col">Wins: <span id="wins"></span></div>
+                <div class="col">Losses: <span id="losses"></span></div>
+            </div>
+        </div>
+        <!-- Buttons with randomly generated points -->
+        <div class="row">
+            <div class ="col"><img id="btn1" src="https://placehold.it/125x125"></div>
+            <div class ="col"><img id="btn2" src="https://placehold.it/125x125"></div>
+            <div class ="col"><img id="btn3" src="https://placehold.it/125x125"></div>
+            <div class ="col"><img id="btn4" src="https://placehold.it/125x125"></div>
+        </div>
+        <!-- Total point bar -->
+        <div class="row">
+            <div class="col">
+                <div>Total Points:</div>
+            </div>
+        </div>
+        <!-- Total points -->   
+        <div class="row">
+            <div class="col playerPoints"></div>
+            <div class="col btn btn-secondary reset">Reset Game</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
