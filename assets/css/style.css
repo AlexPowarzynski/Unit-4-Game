@@ -18,3 +18,12 @@
     border-style: solid;
     border-color: black;
 }
+img {
+    height: 125px;
+    width: 125px;
+}
+body {
+    background-image: url("../images/pexels-photo-1287142.jpeg");
+    width: 100%;
+    height: 100%;
+}

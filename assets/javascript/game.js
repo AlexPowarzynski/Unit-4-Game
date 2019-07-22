@@ -44,12 +44,18 @@ $(document).ready(function () {
     }
     // Checks score
     function checkScore(){
-        if (playerTotal === randomGoalScore){
-            chickenDinner();
-            reset ();
-        } else if (playerTotal > randomGoalScore){
-            justALoser();
-            reset();
+        if (wins === 10){
+            alert("You win...Nerd.");
+            wins = 0;
+            losses = 0;
+            $("#wins").text(wins);
+            $("#losses").text(losses);
+        } else if (losses === 10){
+            alert("Get lost, punk.  You can't handle this.");
+            wins = 0;
+            losses = 0;
+            $("#wins").text(wins);
+            $("#losses").text(losses);
         }
     }
     // Functionality of button 1
@@ -58,9 +64,11 @@ $(document).ready(function () {
         if (playerTotal === randomGoalScore){
             chickenDinner();
             reset();
+            checkScore();
         }else if(playerTotal > randomGoalScore){
             justALoser();
             reset();
+            checkScore();
         }else{
         $(".playerPoints").text(playerTotalNew);
         }

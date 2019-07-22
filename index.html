@@ -24,37 +24,48 @@
         </div>
         <!-- Explanation of the game -->
         <div class="row">
-            <div class="col-md-7">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates cumque nemo placeat soluta magnam, neque dicta minima animi accusantium expedita nulla ullam officiis cum repudiandae eos explicabo autem aliquam.
-                Illo, aliquid error alias excepturi dolorem quibusdam fugiat beatae enim cupiditate in numquam accusantium minima eius nemo velit pariatur eligendi doloremque aperiam odit sequi vero nisi consequuntur hic? Eum, voluptatem!
-                Dicta nulla voluptatum dolorum. Vel ipsum corporis dolorem suscipit accusamus quasi excepturi unde ex? Quod hic eius tenetur illum aspernatur earum, provident quae temporibus voluptatibus recusandae possimus, sunt accusantium blanditiis?
-                Dolorem deleniti corrupti necessitatibus, soluta rerum ab, reiciendis voluptatibus ut debitis minima corporis illo, expedita animi. Corporis nobis sequi nam est suscipit vitae eos tempora, odio obcaecati sint autem enim.
-                Vitae placeat, ut nemo minus quisquam voluptatibus ex quaerat quos. Inventore atque dicta suscipit, minima, corrupti enim hic provident nostrum natus voluptatum ab? Sed fugit laudantium doloribus fuga, optio eos!
-                Pariatur fugiat totam nostrum in est dolorem provident deserunt tenetur magnam vel, culpa ut nam quia ab! Repellat, fugiat cumque et placeat iure minus veniam a libero perferendis quam repudiandae?</p>
+            <div class="col-md-7 text">
+                <p>The goal of this game is to match your "Total Meme Points" to the "Goal Meme Points".  The tricky part of this game is that each meme down below has a random point value between 1-12.  This is random and resets each round.  Make sure you don't go over the "Goal Meme Points" or you'll get a loss.   So, do you remember each value of the buttons?<br> 
+                <ul>
+                    <li>Match your points to the goal points to win that round.</li>
+                    <li>Don't go over the goal points, otherwise you get a loss.</li>
+                    <li>The buttons are a random value between 1-12 and randomize each round.</li>
+                    <li>The reset game button will reset the wins/losses as well as randomize everything each time you click it.</li>
+                    <li>Get 10 Wins/Losses and the game will reset.</li>
+                </ul></p>
             </div>
-            <div class="col-md-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gs069dndIYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe></div>
+            <div class="col-md-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gs069dndIYk?autoplay=1" frameborder="0" allowfullscreen></iframe></div>
         </div>
+        <hr>
         <!-- Goal and wins/losses -->
         <div class="row">
-            <div class="col goalScore">
-                - Goal score-
+            <div class="col">
+            <div class="col">Goal Meme Points: </div>
+                <div class=" col goalScore"></div>              
             </div>
             <div class="col">
                 <div class="col">Wins: <span id="wins"></span></div>
                 <div class="col">Losses: <span id="losses"></span></div>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-2">Earth</div>
+            <div class="col-md-2">Wind</div>
+            <div class="col-md-2">Fire</div>
+            <div class="col-md-2">Maurice White</div>
+        </div>
         <!-- Buttons with randomly generated points -->
         <div class="row">
-            <div class ="col-md-2"><img id="btn1" src="https://placehold.it/125x125"></div>
-            <div class ="col-md-2"><img id="btn2" src="https://placehold.it/125x125"></div>
-            <div class ="col-md-2"><img id="btn3" src="https://placehold.it/125x125"></div>
-            <div class ="col-md-2"><img id="btn4" src="https://placehold.it/125x125"></div>
+            <div class ="col-md-2"><img id="btn1" src="assets/images/Earth.gif"></div>
+            <div class ="col-md-2"><img id="btn2" src="assets/images/Wind.gif"></div>
+            <div class ="col-md-2"><img id="btn3" src="assets/images/Fire.gif"></div>
+            <div class ="col-md-2"><img id="btn4" src="assets/images/extra.gif"></div>
         </div>
         <!-- Total point bar -->
         <div class="row">
             <div class="col">
-                <div>Total Points:</div>
+                <div>Total Meme Points:</div>
             </div>
         </div>
         <!-- Total points -->   
